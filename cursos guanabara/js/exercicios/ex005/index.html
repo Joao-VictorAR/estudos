@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores 1</title>
+    <style>
+        body {
+            font-size: 20px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>
+        Operadores parte 1
+    </h1>
+    
+    <script>
+
+      var n1 = Number(window.prompt("digite um numero"))
+      var n2 = Number(window.prompt("digite outro numero"))
+      var s = n1 + n2
+      var multi = n1 * n2
+      var div = n1 / n2
+      var rest = n1 % n2
+      var pot = n1 ** n2
+
+      document.write(`a soma de ${n1} e ${n2} e ${s} <br>`);
+      
+      document.write(`a multiplicação de ${n1} e ${n2} e ${multi}<br>`);
+
+      document.write(`a divisão de ${n1} e ${n2} e ${div}<br>`);
+
+      document.write(`o resto da divisão de ${n1} e ${n2} e ${rest}<br>`);
+
+      document.write(`a potência de ${n1} e ${n2} e ${pot}<br>`);
+
+      var c1 = 3 % 2 + 4 / 2
+      document.write(` a conta 3 % 2 + 4 / 2, o resultado é ${c1}<br>`)
+
+    </script>
+<pre>
+atribuição
+var n = 3
+var n = n + 3 == 6
+var n += 3 == 6
+
+Incremento + ou - 1
+var x++ ou ++x
+var x-- ou --x
+
+Relacionais
+5 > 2 true
+7 > 4 false
+8 >= 8 true
+9 <= 7 false
+5 == 5 true
+4 != 4 false
+
+Identidade
+5 == 5 true
+5 == "5" true
+5 === "5" false
+5 === 5 true
+
+Lógicos
+! negação
+&& conjunção ambos valores tem que ser verdadeiros
+|| disjunção de 2 valores, 1 deles tem que ser verdadeiro
+
+Ternário
+Teste ? True : False
+
+</pre>
+</body>
+</html>
